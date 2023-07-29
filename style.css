@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+body{
+    background-color: rgb(6, 6, 48);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(16, 16, 48);
+    margin-left: -68px;
+}
+header{
+    position: sticky;
+    top:0px;
+    box-shadow: 1px 0 2px wheat;
+}
+.second ul{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 570px;
+    
+}
+ul li{
+    list-style: none;
+    margin: 20px;
+    color: white;
+}
+.first a{
+    font-size: 45px;
+    color: white;
+    text-decoration: none;
+    margin-left: -115px;
+}
+.first{
+    display: flex;
+    margin-left: 165px;
+}
+.logopara{
+    color: white;
+    font-size: 50px;
+}
+.logo{
+    width: 180px;
+    height: 67px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.firstright,.firstleft{
+    /* background-color: red; */
+    width: 30%;
+}
+.p1{
+    font-size: 75px;
+    padding-top: 30px;
+    color: white;
+}
+#element{
+    font-size: 30px;
+    color: white;
+    padding-top: 25px;
+    height: 200px;
+}
+.p3{
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 25px;
+    font-weight: 700;
+}
+img.firstt{
+    margin-top:36px;
+}
+
+.button{
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    font-size: 1.5rem;
+    color: rgb(16, 16, 48);
+    border-radius: 8%;
+    margin-top: 50px;
+    transition: 1s;
+}
+.button:hover{
+    background-color:rgb(214, 208, 208) ;
+    box-shadow: 2px 2px 4px wheat;
+    cursor: pointer;
+}
+li:hover{
+    font-size:700;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px white;
+}
+.cont2head{
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-left: 485px;
+    margin-top: 100px;
+}
+
+.cont2para1{
+    font-size: 23px;
+    color: white;
+    margin-left: 332px;
+}
+.cont2para2{
+    font-size: 23px;
+    color: white;
+    margin-left: 376px;
+}
+footer{
+    height: 200px;
+    background-color: rgb(6, 6, 48) ;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.tickpara{
+    color: white;
+    font-size: 23px;
+    padding-top: 20px;
+}
+.bullet{
+    width: 20px;
+    margin-right: 4px;
+}
+.cont3lefthead{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.secondleft{
+    margin-top: 140px;
+}
+
+/*sol container*/
+.sol-container{
+    width: 1200px;
+    height: 740px;
+    background-color: rgb(209, 209, 209);
+    margin-top: 100px;
+    border-radius: 46px;
+    margin: 75px;
+}
+.sol-header{
+    text-align: center;
+}
+.sol-header-h3{
+    padding-top: 70px;
+    font-size: 40px;
+}
+.sol-header-p{
+    padding-top: 9px;
+    font-size: 33px;
+}
+.service-logo img{
+    width: 80px;
+    margin-left: 20px;
+}
+.services{
+    border: 2px solid  rgb(165, 162, 162);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    width: 528px;
+    height: 100px;
+}
+.service-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.service-text{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.services a img{
+    width: 40px;
+    transition: 0.5s;
+}
+a.a{
+    margin-left: 46px;
+}
+a.b{
+    margin-left: 174px;
+}
+a.c{
+    margin-left: 12px;
+}
+a.d{
+    margin-left: 23px;
+}
+a.e{
+    margin-left: 91px;
+}
+a.f{
+    margin-left: 14px;
+}
+.services a img:hover{
+    width: 42px;
+    cursor: pointer;
+}
